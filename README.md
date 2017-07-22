@@ -1,1 +1,1 @@
-A personal website. The website can be access here: https://brian-pho.github.io/
+A website for personal use. The website can be accessed here: https://brian-pho.github.io/.
