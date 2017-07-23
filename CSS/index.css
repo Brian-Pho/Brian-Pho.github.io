@@ -1,3 +1,30 @@
+* {
+	background-color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: bold;
+	line-height: 1.2;
+	text-align: center;
+	vertical-align: middle;
+}
+
 body {
-	font-
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	margin: 40px
+	auto;
+	max-width: 650px;
+	line-height: 1.6;
+	padding: 10px
+}
+
+p.pages {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
