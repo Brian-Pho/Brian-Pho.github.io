@@ -4,6 +4,7 @@
 
 html {
 	overflow-x: hidden;
+	/* vw = viewport width */
 	width: 100vw;
 }
 
@@ -65,7 +66,7 @@ nav a {
 
 nav li a.on {
 	background-color: black;
-	color: white;
+	color: rgb(55, 214, 175);
 }
 
 nav li a:hover {

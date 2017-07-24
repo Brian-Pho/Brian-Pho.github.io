@@ -2,6 +2,12 @@
 	background-color: rgb(255, 255, 255);
 }
 
+html {
+	overflow-x: hidden;
+	/* vw = viewport width */
+	width: 100vw;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -60,7 +66,7 @@ nav a {
 
 nav li a.on {
 	background-color: black;
-	color: white;
+	color: rgb(55, 214, 175);
 }
 
 nav li a:hover {
