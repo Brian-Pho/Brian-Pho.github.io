@@ -69,20 +69,30 @@ nav li a:hover {
 
 table {
 	width: 600px;
+	margin: 0px auto 0px auto;
 	empty-cells: hide;
 	text-align: center;
 	table-layout: fixed;
+	border-top: 2px solid #000;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
+
 
 th, td {
 	padding: 10px 10px 10px 10px;
 	width: 150px
 }
 
-th.tabletitle {
+thead th {
 	background-color: lightblue;
 }
 
+
+tbody th {
+	background-color: lightgreen;
+}
+
 td {
-	border: 1px solid #000
+	border: 1px solid #000;
 }
