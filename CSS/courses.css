@@ -66,3 +66,23 @@ nav li a.on {
 nav li a:hover {
 	color: rgb(55, 214, 175);
 }
+
+table {
+	width: 600px;
+	empty-cells: hide;
+	text-align: center;
+	table-layout: fixed;
+}
+
+th, td {
+	padding: 10px 10px 10px 10px;
+	width: 150px
+}
+
+th.tabletitle {
+	background-color: lightblue;
+}
+
+td {
+	border: 1px solid #000
+}
