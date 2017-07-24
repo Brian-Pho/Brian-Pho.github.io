@@ -27,6 +27,10 @@ body.wrapper {
 	margin: 0px auto;
 }
 
+h1#name {
+	margin: 0px auto 10px auto
+}
+
 ul {
 	padding: 15px;
 	margin: 0px auto 0px auto;
