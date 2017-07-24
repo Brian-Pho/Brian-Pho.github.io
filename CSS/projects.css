@@ -2,7 +2,6 @@ html {
 	overflow-x: hidden;
 	/* vw = viewport width */
 	width: 100vw;
-	background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -69,4 +68,24 @@ nav li a.on {
 
 nav li a:hover {
 	color: rgb(55, 214, 175);
+}
+
+div#website {
+	background-color: #f0fff0;
+}
+
+div#library {
+	background-color: #f0ffff;
+}
+
+div#airline {
+	background-color: #e6e6fa;
+}
+
+div#calculator {
+	background-color: #ffe4e1;
+}
+
+div#game {
+	background-color: #ffefd5;
 }

@@ -1,11 +1,8 @@
-* {
-	background-color: rgb(255, 255, 255);
-}
-
 html {
 	overflow-x: hidden;
 	/* vw = viewport width */
 	width: 100vw;
+	background-color: rgb(255, 255, 255);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -79,7 +76,7 @@ table {
 	empty-cells: hide;
 	text-align: center;
 	table-layout: fixed;
-	border-top: 2px solid #000;
+	border-bottom: 2px solid #000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
@@ -94,11 +91,14 @@ thead th {
 	background-color: lightblue;
 }
 
-
 tbody th {
 	background-color: lightgreen;
 }
 
 td {
 	border: 1px solid #000;
+}
+
+td.notable {
+	background-color: #f5deb3;
 }
