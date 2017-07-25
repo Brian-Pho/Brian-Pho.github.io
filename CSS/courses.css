@@ -71,7 +71,7 @@ nav li a:hover {
 }
 
 table {
-	width: 600px;
+	width: 100%;
 	margin: 0px auto 0px auto;
 	empty-cells: hide;
 	text-align: center;
@@ -101,4 +101,9 @@ td {
 
 td.notable {
 	background-color: #f5deb3;
+}
+
+p#backtotop {
+	text-align: center;
+	vertical-align: middle;
 }
