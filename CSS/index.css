@@ -70,3 +70,8 @@ nav li a.on {
 nav li a:hover {
 	color: rgb(55, 214, 175);
 }
+
+p#quote {
+	text-align: center;
+	vertical-align: middle;
+}
