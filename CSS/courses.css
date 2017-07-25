@@ -76,7 +76,6 @@ table {
 	empty-cells: hide;
 	text-align: center;
 	table-layout: fixed;
-	border-bottom: 2px solid #000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
