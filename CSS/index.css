@@ -1,6 +1,5 @@
 html {
 	overflow-x: hidden;
-	/* vw = viewport width */
 	width: 100vw;
 	background-color: rgb(255, 255, 255);
 }
@@ -47,9 +46,7 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	padding: 6px 18px 5px 18px;
-	background-color: rgb(255, 255, 255);
-	padding: 10px;
+	padding: 13px 20px 13px 20px;
 	margin: auto;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -76,12 +73,11 @@ p#backtotop {
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	padding: 6px 18px 5px 18px;
 	background-color: rgb(255, 255, 255);
 	padding: 10px;
 	margin: auto;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	color: black;
+	color: rgb(0, 0, 0);
 }
