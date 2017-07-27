@@ -7,7 +7,6 @@ html {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-style: bold;
 	line-height: 1.2;
 	text-align: center;
 	vertical-align: middle;
@@ -15,9 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 18px;
 	font-weight: 400;
-	font-style: normal;
+	font-size: 18px;
 	width: 45%;
 	line-height: 1.6;
 	padding: 10px;
@@ -46,8 +44,8 @@ nav a {
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
-	padding: 13px 20px 13px 20px;
 	margin: auto;
+	padding: 13px 20px 13px 20px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -74,8 +72,8 @@ p#backtotop {
 	text-align: center;
 	vertical-align: middle;
 	background-color: rgb(255, 255, 255);
-	padding: 10px;
 	margin: auto;
+	padding: 10px;
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	font-style: normal;
