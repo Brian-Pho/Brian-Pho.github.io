@@ -16,17 +16,19 @@ th, td {
 }
 
 thead th {
-	background-color: rgb(30, 198, 255);
+	/*background-color: rgb(30, 198, 255);*/
+	background-color: rgb(102, 204, 255);
 }
 
 tbody th {
-	background-color: rgb(32, 247, 171);
+	/*background-color: rgb(32, 247, 171);*/
+	background-color: rgb(153, 255, 204);
 }
 
 td {
 	border: 1px solid #000;
 }
 
-td.notable {
-	background-color: #f5deb3;
+td:hover {
+  background-color: rgb(255, 153, 153);
 }
