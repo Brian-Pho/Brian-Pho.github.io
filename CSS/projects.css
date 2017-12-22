@@ -10,6 +10,10 @@ div.projects {
 	padding: 25px;
 }
 
+div#bugtracking {
+	background-color: #ffffe0;
+}
+
 div#website {
 	background-color: #f0fff0;
 }
