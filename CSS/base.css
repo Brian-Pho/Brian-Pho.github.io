@@ -1,5 +1,6 @@
 html {
 	overflow-x: hidden;
+	overflow-y: scroll;
 	width: 100vw;
 	background-color: rgb(255, 255, 255);
 	margin-left: calc(100vw - 100%);
