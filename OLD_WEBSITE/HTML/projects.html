@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brian Pho Projects</title>
+	<meta name="DESCRIPTION" content="These are the projects that Brian Pho has been involved in."/>
+	<meta name="KEYWORDS" content="Brian Pho, projects"/>
+	<link href="../CSS/projects.css" type="text/css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="../Images/Favicon/favicon-32x32.png" sizes="32x32"/>
+	<link rel="icon" type="image/png" href="../Images/Favicon/favicon-16x16.png" sizes="16x16"/>
+</head>
+<body>
+	<header>
+		<h1 id="name">Brian Pho</h1>
+		<nav>
+			<ul>
+				<li><a id="home" href="index.html">Home</a></li>
+				<li><a id="courses" href="courses.html">Courses</a></li>
+				<li><a id="projects" class="on" href="projects.html">Projects</a></li>
+				<li><a id="gallery" href="gallery.html">Gallery</a></li>
+				<li><a id="about" href="about.html">About</a></li>
+				<li><a id="contact" href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<h1>Projects</h1>
+	<p>
+		The following are projects that I have been involved in. The list is ordered with the most recent project
+		at the top. Most of the projects have been a part of school but this website is a personal endeavor. My GitHub can be found
+		<a href="https://github.com/Brian-Pho"> here</a>.
+	</p>
+	<hr>
+	<!-- Find additional project colors here: http://www.tayloredmktg.com/rgb/ -->
+	<div id=bugtracking class=projects>
+		<h2>ENSF 480: Bug Tracking System (Nov 2017)</h2>
+		<p><a href="https://github.com/Brian-Pho/ENSF480_Bug-Tracking-System">Source Code</a></p>
+		<p>
+			This project was done in a group of three where the goal was to create a bug tracking system using a software engineering
+			design methodology. Due to the nature of being in school, we only had time to do a simple linear development process which has
+			an analysis, design, and implementation phase. The analysis phase included creating a use-case diagram, sequence diagram, and activity diagram
+			for obtaining a high level overview of the functional requirements and constraints. The design phase then moved onto more detailed 
+			diagrams such as a UML class diagram, deployment diagram, and state transition diagram for a bug. Lastly, the project was implemented
+			in Java where Git and IntelliJ were used to code the project.
+		</p>
+		<p>
+			The project is a system used by developers and managers for tracking software bugs reported by users. A user is able to submit a 
+			bug report that is then approved by the manager. Once the manager approves/disapproves of the bug, it is then assigned to a developer
+			to be fixed. When the bug is fixed, the developer marks the bug as fixed and carries on. This project did not require the use of a database
+			so a simple text file was used.
+		</p>
+		<p>
+			From this project I learned how a software engineer might go through the process of developing a good piece of software. It was interesting 
+			how the initial analysis and design phases made it easier to implement the program afterwards as most of the thinking had been done during 
+			those two phases. The implementation just required converting the diagrams into code which isn't too bad. I had some fun times during the project
+			such as implementing a singleton design pattern for the login and creating the GUIs.
+		</p>
+		<figure>
+			<a href="../Images/BugTracking/bugtracking1.png"><img src="../Images/BugTracking/bugtracking1.png" alt="Bug Tracking 1" width="286" height="153"/></a>
+			<a href="../Images/BugTracking/bugtracking2.png"><img src="../Images/BugTracking/bugtracking2.png" alt="Bug Tracking 2" width="236" height="183"/></a>
+			<a href="../Images/BugTracking/bugtracking3.png"><img src="../Images/BugTracking/bugtracking3.png" alt="Bug Tracking 3" width="700" height="333.41"/></a>
+			<a href="../Images/BugTracking/bugtracking4.png"><img src="../Images/BugTracking/bugtracking4.png" alt="Bug Tracking 4" width="700" height="504.11"/></a>
+			<a href="../Images/BugTracking/bugtracking5.png"><img src="../Images/BugTracking/bugtracking5.png" alt="Bug Tracking 5" width="700" height="444.64"/></a>
+		</figure>
+	</div>
+	<hr>
+	<div id=website class=projects>
+		<h2>Personal: Github Pages Website (July 2017)</h2>
+		<p><a href="https://github.com/Brian-Pho/Brian-Pho.github.io">Source Code</a></p>
+		<p>
+			This website, the one you're reading this on, is a personal project of mine that I
+			made from scratch over my summer break. I wanted to make a website for multiple reasons. The first reason was
+			to learn a new programming language (HTML and CSS in this case) and apply it immediately.
+			Second was because I am going to be applying for internships soon and having a website
+			is useful in showcasing my past projects and info about me. The last reason was because I love
+			programming and find it fun!
+		</p>
+		<p>
+			This is the first time I've programmed in HTML and it's
+			different from the Java and C programming that I'd previously done. HTML is similar
+			to LaTeX, a language used for note taking, so I learned it quickly. I also owe my knowledge to
+			the textbook <i>HTML and CSS: Design and Build Websites</i> by Jon Duckett. I read this 
+			textbook to learn HTML and it made HTML and CSS easy for me to understand.
+			This website is currently hosted using Github Pages. The header 
+			font is Open Sans and the text font is Roboto which are provided by Google Fonts. 
+		</p>
+		<figure>
+			<a href="../Images/Website/website1.png"><img src="../Images/Website/website1.png" alt="Bug Tracking 1" width="700" height="382.81"/></a>
+			<a href="../Images/Website/website2.png"><img src="../Images/Website/website2.png" alt="Bug Tracking 2" width="700" height="382.81"/></a>
+		</figure>
+	</div>
+	<hr>
+	<div id=library class=projects>
+		<h2>CPSC 471: Library Database Management System (June 2017)</h2>
+		<p><a href="https://github.com/Brian-Pho/CPSC471_Library-App">Source Code</a></p>
+		<p>
+			While this project was part of my database class, it can be thought of as
+			a continuation and combination of my last two projects. This project was
+			done in a group of three and I was assigned to do the UI aspect of the app. For this project,
+			my group had to create an app that connected to a database (mySQL) and retrieve
+			data from the database using SQL queries. This project was challenging because the project
+			required the use of multiple programming languages (Java, SQL, PHP, and XML) and required the
+			use of an external server to host the data.
+		</p>
+		<p>
+			The purpose of this project was to allow library users access to the library database from the
+			app. Their are two different users, users and admins, with admins having additional 
+			functionalities. Their were a lot of functions that we had to incorporate such as
+			search, add, delete, and update which increased the complexity of the project. 
+			Overall, this project was very challenging but I learned a lot from it.
+		</p>
+		<figure>
+			<a href="../Images/Library/library1.png"><img src="../Images/Library/library1.png" alt="Library 1" width="233" height="426"/></a>
+			<a href="../Images/Library/library2.png"><img src="../Images/Library/library2.png" alt="Library 2" width="233" height="426"/></a>
+			<a href="../Images/Library/library3.png"><img src="../Images/Library/library3.png" alt="Library 3" width="233" height="426"/></a>
+			<a href="../Images/Library/library4.png"><img src="../Images/Library/library4.png" alt="Library 4" width="233" height="426"/></a>
+			<a href="../Images/Library/library5.png"><img src="../Images/Library/library5.png" alt="Library 5" width="233" height="426"/></a>
+			<a href="../Images/Library/library6.png"><img src="../Images/Library/library6.png" alt="Library 6" width="233" height="426"/></a>
+			<a href="../Images/Library/library7.png"><img src="../Images/Library/library7.png" alt="Library 7" width="233" height="426"/></a>
+			<a href="../Images/Library/library8.png"><img src="../Images/Library/library8.png" alt="Library 8" width="233" height="426"/></a>
+			<a href="../Images/Library/library9.png"><img src="../Images/Library/library9.png" alt="Library 9" width="233" height="426"/></a>
+		</figure>
+	</div>
+	<hr>
+	<div id=airline class=projects>
+		<h2>ENSF 409: Airlines Registration (April 2017)</h2>
+		<p><a href="https://github.com/Brian-Pho/ENSF409_Airlines-Registration-System">Source Code</a></p>
+		<p>
+			This was my first project that involved the use of a database (mySQL). This project was
+			done in a group of three where I had the role of designing the UI for
+			the program. The UI was built using Java and IntelliJ. The purpose of this 
+			program was to connect to an external database and relay
+			information back and forth from the client and server. 
+		</p>
+		<p>
+			There are two different types of users, clients and admins, both of which have different 
+			functionalities. The program allows users to book a flight and view the current flights 
+			to and from there destination. Only admins are able to add and view all tickets.
+		</p>
+		<figure>
+			<a href="../Images/Airlines/airlines1.png"><img src="../Images/Airlines/airlines1.png" alt="Airlines 1" width="500" height="237.5"/></a>
+			<a href="../Images/Airlines/airlines2.png"><img src="../Images/Airlines/airlines2.png" alt="Airlines 2" width="523" height="340"/></a>
+			<a href="../Images/Airlines/airlines3.png"><img src="../Images/Airlines/airlines3.png" alt="Airlines 3" width="700" height="340"/></a>
+		</figure>
+	</div>
+	<hr>
+	<div id=calculator class=projects>
+		<h2>ENSF 409: Calculator Android App (March 2017)</h2>
+		<p><a href="https://github.com/Brian-Pho/ENSF409_Calculator">Source Code</a></p>
+		<p>
+			A generic calculator app for Android. This was my first experience working
+			with Android Studio and Java. There were many small quirks that we had to
+			incorporate such as division by zero, holding the previous operation, and
+			chaining operations.
+		</p>
+		<figure>
+			<a href="../Images/Calculator/calculator1.png"><img src="../Images/Calculator/calculator1.png" alt="Calculator 1" width="233" height="426"/></a>
+			<a href="../Images/Calculator/calculator2.png"><img src="../Images/Calculator/calculator2.png" alt="Calculator 2" width="233" height="426"/></a>
+			<a href="../Images/Calculator/calculator3.png"><img src="../Images/Calculator/calculator3.png" alt="Calculator 3" width="233" height="426"/></a>
+		</figure>
+	</div>
+	<hr>
+	<div id=game class=projects>
+		<h2>ENGG 233: Ring Runner Game (December 2015)</h2>
+		<p><a href="https://github.com/Brian-Pho/ENGG233_Ring-Runner-Game">Source Code</a></p>
+		<p>
+			My first major project after taking my first programming course. 
+			The project I chose to do was an original game programmed in 
+			Processing; a language based on Java. A notable problem that I had to
+			solve when developing the game was trying to make the ball move in a
+			circular path. The solution was to use sin and cos for the y and x coordinates
+			of the ball. This solution made sense as the unit circle is described by trigonometric
+			functions.
+		</p>
+		<figure>
+			<a href="../Images/RingRunner/ringrunner1.png"><img src="../Images/RingRunner/ringrunner1.png" alt="Ring Runner 1" width="351" height="363.5"/></a>
+			<a href="../Images/RingRunner/ringrunner2.png"><img src="../Images/RingRunner/ringrunner2.png" alt="Ring Runner 2" width="351" height="363.5"/></a>
+			<a href="../Images/RingRunner/ringrunner3.png"><img src="../Images/RingRunner/ringrunner3.png" alt="Ring Runner 3" width="351" height="363.5"/></a>
+		</figure>
+	</div>
+	<hr>
+	<p id="backtotop"><a href="#top">Back to Top</a></p>
+</body>
+</html>
