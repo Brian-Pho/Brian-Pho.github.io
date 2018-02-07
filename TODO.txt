@@ -4,6 +4,4 @@ TODO List
  - Add contact form
  - Modal for images in the project section
  - Make a contact form
- - Add media icons
- - Make media as footer
  - Add back Open Sans/Roboto fonts?
