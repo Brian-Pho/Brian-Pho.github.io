@@ -2,3 +2,4 @@ TODO List
  - Change navbar into pills and dropdowns
  - Paginate project pages
  - Modal for images in the project section
+ 
