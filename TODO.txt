@@ -1,7 +1,6 @@
 TODO List
  - Change navbar into pills and dropdowns
  - Paginate project pages
- - Add contact form
  - Modal for images in the project section
  - Make a contact form
  - Add back Open Sans/Roboto fonts?

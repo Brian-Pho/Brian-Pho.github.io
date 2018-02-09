@@ -48,21 +48,125 @@
 				</div>
 			</nav>
 		</header>
-		<div class="container">
-			<h1 class="display-4 text-center">Contact</h1>
-			<p class="lead text-center">
+		<div class="container text-center">
+			<h1 class="display-4">Contact</h1>
+			<p class="lead">
 				Say hello.
 			</p>
 			<hr>
-			<div class="text-center">
-				<a class="pr-1 pl-1" href="https://www.facebook.com/BrianPho7"><i class="fab fa-facebook fa-2x" style="color: black"></i></a>
-				<a class="pr-1 pl-1" href="https://www.linkedin.com/in/brian-pho"><i class="fab fa-linkedin fa-2x" style="color: black"></i></a>
-				<a class="pr-1 pl-1" href="https://github.com/Brian-Pho/"><i class="fab fa-github-square fa-2x" style="color: black"></i></a>
-				<a class="pr-1 pl-1" href="mailto:brian.pho@ucalgary.ca"><i class="fas fa-envelope-square fa-2x" style="color: black"></i></a>
+			<!--
+			<div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>
+			<div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong></div>
+			-->
+			<div class="alert alert-success alert-dismissible fade show" role="alert" hidden>
+				Success! Message sent.
+				<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 mx-auto">
+					<!--
+					<form action="https://formspree.io/brainic777@gmail.com" method="POST">
+										<input type="hidden" name="_next" value="//site.io/thanks.html"/>
+						-->
+						<!--
+							<input type="hidden" name="_subject" value="Message from brianpho.com"/>
+							<input type="text" name="_gotcha" style="display:none"/>
+							<div class="form-group">
+												<label for="InputName">Your Name</label>
+												<input type="text" class="form-control" name="Sender Name" placeholder="Enter Name" required>
+							</div>
+							<div class="form-group">
+												<label for="InputEmail">Your Email</label>
+												<input type="email" class="form-control" name="Sender Email" placeholder="Enter Email" required>
+							</div>
+							<div class="form-group">
+												<label for="InputMessage">Message</label>
+												<textarea name="Message" class="form-control" rows="5" placeholder="Hey is for horses." required></textarea>
+							</div>
+							<button type="submit" class="btn btn-outline-primary" id="btn">Submit</button>
+					</form>
+					-->
+					<form action="https://formspree.io/brainic777@gmail.com" method="POST" class="needs-validation" novalidate>
+						<!--<input type="hidden" name="_next" value="//site.io/thanks.html"/>-->
+						<input type="hidden" name="_subject" value="Message from brianpho.com"/>
+						<input type="text" name="_gotcha" style="display:none"/>
+						<div class="form-group">
+							<label for="InputName">Your Name</label>
+							<input type="text" class="form-control" id="validationCustom01" name="Sender Name" placeholder="Enter Name" required>
+							<div class="valid-feedback">
+								Looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please enter a name.
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="InputEmail">Your Email</label>
+							<input type="email" class="form-control" id="validationCustom02" name="Sender Email" placeholder="Enter Email" required>
+							<div class="valid-feedback">
+								Looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please enter an email.
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="InputMessage">Message</label>
+							<textarea name="Message" class="form-control" id="validationCustom03" rows="5" placeholder="Hey is for horses." required></textarea>
+							<div class="valid-feedback">
+								Looks good!
+							</div>
+							<div class="invalid-feedback">
+								Please enter a message.
+							</div>
+						</div>
+						<button type="submit" class="btn btn-outline-primary" id="btn">Submit</button>
+					</form>
+					<script>
+					// Example starter JavaScript for disabling form submissions if there are invalid fields
+					(function() {
+					'use strict';
+					window.addEventListener('load', function() {
+						// Fetch all the forms we want to apply custom Bootstrap validation styles to
+						var forms = document.getElementsByClassName('needs-validation');
+						// Loop over them and prevent submission
+						var validation = Array.prototype.filter.call(forms, function(form) {
+							form.addEventListener('submit', function(event) {
+								if (form.checkValidity() === false) {
+									event.preventDefault();
+									event.stopPropagation();
+								}
+								form.classList.add('was-validated');
+								}, false);
+							});
+						}, false);
+					})();
+					</script>
+				</div>
 			</div>
 		</div>
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	</body>
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("#btn").click(function() {
+				$('#success-alert').removeClass('hidden');
+			});
+			$("button.close").click(function() {
+				$('#success-alert').addClass('hidden');
+			});
+		});
+		</script>
+		<hr>
+		<div class="text-center">
+			<a class="pr-1 pl-1" href="https://www.facebook.com/BrianPho7"><i class="fab fa-facebook fa-2x" style="color: black"></i></a>
+			<a class="pr-1 pl-1" href="https://www.linkedin.com/in/brian-pho"><i class="fab fa-linkedin fa-2x" style="color: black"></i></a>
+			<a class="pr-1 pl-1" href="https://github.com/Brian-Pho/"><i class="fab fa-github-square fa-2x" style="color: black"></i></a>
+			<a class="pr-1 pl-1" href="mailto:brian.pho@ucalgary.ca"><i class="fas fa-envelope-square fa-2x" style="color: black"></i></a>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
