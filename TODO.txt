@@ -2,4 +2,16 @@ TODO List
  - Change navbar into pills and dropdowns
  - Paginate project pages
  - Modal for images in the project section
+ - Add full screen picture to homepage
+ - Add JS to courses page
+ - Fix content on projects page
+ - Have link to old website in project page
+ - Compress the images in gallery
+ - Add video/image on homepage
+
+https://www.sitepoint.com/10-guidelines-better-website-background-videos/
+https://www.creativebloq.com/inspiration/css-animation-examples
+https://www.abetterlemonadestand.com/optimizing-images-for-web/
+https://www.html5rocks.com/en/tutorials/speed/img-compression/
+http://thenewcode.com/777/Create-Fullscreen-HTML5-Page-Background-Video
  
