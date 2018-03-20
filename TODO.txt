@@ -5,6 +5,9 @@ TODO List
  - Add full screen picture to homepage
  - Fix content on projects page
  - Compress the images in gallery
+ - Remove calculator project
+ - Do performance modifications
+ - Take screenshots of contact page for website project
 
 https://www.sitepoint.com/10-guidelines-better-website-background-videos/
 https://www.creativebloq.com/inspiration/css-animation-examples
