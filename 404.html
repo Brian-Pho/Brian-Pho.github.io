@@ -8,7 +8,28 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 	    crossorigin="anonymous">
-	<link href="CSS/custom.css" rel="stylesheet">
+	<!-- Internal CSS -->
+	<style>
+		html {
+			margin-left: calc(100vw - 100%);
+		}
+
+		body {
+			font-size: 18px;
+			padding-top: 70px;
+			overflow: scroll;
+		}
+
+		nav.navbar {
+			background-color: #e2fdf0;
+		}
+
+		@media screen and (max-width: 768px) {
+			body {
+				padding-top: 70px;
+			}
+		}
+	</style>
 	<link rel="icon" type="image/png" href="Images/Favicon/favicon-32x32.png" sizes="32x32" />
 	<title>404 - Page Not Found</title>
 	<meta name="DESCRIPTION" content="This is the homepage of Brian Pho." />
@@ -28,24 +49,27 @@
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
 					<li class="nav-item active">
-						<a class="nav-link" href="index.html">Home
+						<a class="nav-link" href="HTML/index.html">Home
 							<span class="sr-only">(current)</span>
 						</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="courses.html">Courses</a>
+						<a class="nav-link" href="HTML/courses.html">Courses</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="projects.html">Projects</a>
+						<a class="nav-link" href="HTML/projects.html">Projects</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="gallery.html">Gallery</a>
+						<a class="nav-link" href="HTML/gallery.html">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
+						<a class="nav-link" href="/CR4-DL">CR4-DL</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact</a>
+						<a class="nav-link" href="HTML/about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="HTML/contact.html">Contact</a>
 					</li>
 				</ul>
 			</div>
