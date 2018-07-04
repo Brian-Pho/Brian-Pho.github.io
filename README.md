@@ -6,7 +6,7 @@ Authors: Brian Pho
 
 Year: 2017 - Present
 
-Link:  www.brianpho.com
+Homepage Link:  www.brianpho.com
 
 CR4-DL Link: https://brianpho.com/CR4-DL
 
@@ -31,6 +31,8 @@ CR4-DL Link: https://brianpho.com/CR4-DL
 - [ ] Port site over to Jekyll
 - [ ] Add quote to homepage
 - [ ] Change homepage to look nicer
+- [ ] Add favorite songs to about page
+
 
   * https://www.sitepoint.com/10-guidelines-better-website-background-videos/
   * https://www.creativebloq.com/inspiration/css-animation-examples
