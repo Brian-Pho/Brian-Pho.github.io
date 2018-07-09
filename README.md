@@ -15,7 +15,7 @@ CR4-DL Link: https://brianpho.com/CR4-DL
 - [x] Move the hidden abyss into original site
 - [x] Change hey is for horses
 - [ ] Update resume
-- [ ] Update about page with skills
+- [x] Update about page with skills
 - [x] Fix 404 page on original site
 - [x] Add CR4-DL as a project
 - [x] Carousel the pictures on the project page
@@ -28,8 +28,8 @@ CR4-DL Link: https://brianpho.com/CR4-DL
 - [ ] Port site over to Jekyll
 - [ ] Add quote to homepage
 - [ ] Change homepage to look nicer
-- [ ] Add favorite songs to about page
-- [ ] Change quotes on about page
+- [x] Add favorite songs to about page
+- [x] Change quotes on about page
 
 
   * https://www.creativebloq.com/inspiration/css-animation-examples

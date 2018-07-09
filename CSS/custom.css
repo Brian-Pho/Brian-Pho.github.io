@@ -18,6 +18,7 @@ nav.navbar {
 	}
 }
 
+/* Use to center carousel images */
 .carousel-inner img {
 	margin: auto;
 }
