@@ -18,6 +18,10 @@ nav.navbar {
 	}
 }
 
+.carousel-inner img {
+	margin: auto;
+}
+
 /*
 https://stackoverflow.com/questions/20721248/best-way-to-override-bootstrap-css
 https://stackoverflow.com/questions/25531028/twitter-bootstrap-3-apply-hover-only-on-table-cells
