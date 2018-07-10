@@ -29,3 +29,4 @@ CR4-DL Link: https://brianpho.com/CR4-DL
   * https://tinypng.com/
   * https://img-resize.com/
   * https://codepen.io/mathiesjanssen/pen/ggeBKm
+  * https://codepen.io/vysocina/pen/jyYEjp/
