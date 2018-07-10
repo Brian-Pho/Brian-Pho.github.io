@@ -1,8 +1,10 @@
 html {
+	/* To prevent shifting due to the scroll bar */
 	margin-left: calc(100vw - 100%);
 }
 
 body {
+	/* Padding top to account for navbar */
 	font-size: 18px;
 	padding-top: 70px;
 	overflow: scroll;
@@ -12,15 +14,30 @@ nav.navbar {
 	background-color: #e2fdf0;
 }
 
-@media screen and (max-width: 768px) {
-	body {
-		padding-top: 70px;
+.carousel-inner img {
+	/* Use to center carousel images */
+	margin: auto;
+}
+
+@media (max-width: 767.98px) {
+	.carousel-inner img {
+		/* Before 767.98px, maximize the carousel images */
+		width: 100%;
 	}
 }
 
-/* Use to center carousel images */
-.carousel-inner img {
-	margin: auto;
+@media (max-width: 575.98px) {
+	div.about {
+		/* Before 575.98px, maximize text to 100% on the about page */
+		width: 100%;
+	}
+}
+
+@media (min-width: 576px) {
+	div.about {
+		/* After 576px, maximize text to 75% on the about page */
+		width: 75%;
+	}
 }
 
 /*
