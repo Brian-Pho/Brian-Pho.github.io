@@ -17,8 +17,8 @@ CR4-DL Link: https://brianpho.com/CR4-DL
 - [x] Compress the images in gallery
 - [ ] Add timeline with to about page with "There are days that define your story beyond your life."
 - [ ] Port site over to Jekyll
-- [ ] Add quote to homepage
 - [ ] Change homepage to look nicer
+- [x] Fix table cell hover
 
 
   * https://www.creativebloq.com/inspiration/css-animation-examples

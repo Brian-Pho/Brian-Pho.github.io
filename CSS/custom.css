@@ -19,6 +19,16 @@ nav.navbar {
 	margin: auto;
 }
 
+.table-hover tbody tr:hover {
+	/* Use to make row highlighting transparent */
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.table-hover tbody tr td:hover {
+	/* Use to color cell highlighting */
+  background-color: #dee2e6 !important;
+}
+
 @media (max-width: 767.98px) {
 	.carousel-inner img {
 		/* Before 767.98px, maximize the carousel images */
