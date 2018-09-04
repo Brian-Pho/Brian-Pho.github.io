@@ -11,12 +11,8 @@ body {
 }
 
 nav.navbar {
+	/* Navbar color */
 	background-color: #e2fdf0;
-}
-
-.carousel-inner img {
-	/* Use to center carousel images */
-	margin: auto;
 }
 
 .table-hover tbody tr:hover {
@@ -27,6 +23,11 @@ nav.navbar {
 .table-hover tbody tr td:hover {
 	/* Use to color cell highlighting */
 	background-color: #dee2e6 !important;
+}
+
+.carousel-inner img {
+	/* Use to center carousel images */
+	margin: auto;
 }
 
 @media (max-width: 767.98px) {
