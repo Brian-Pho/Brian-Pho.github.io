@@ -18,6 +18,7 @@ CR4-DL Link: <https://brianpho.com/CR4-DL>
 - [ ] Add timeline with to about page with "There are days that define your story beyond your life."
 - [ ] Port site over to Jekyll
 - [x] Fix table cell hover
+- [ ] this._container.getBoundingClientRect() bug causes multiple resizes to shift the center
 
 - <https://www.creativebloq.com/inspiration/css-animation-examples>
 - <https://www.abetterlemonadestand.com/optimizing-images-for-web/>

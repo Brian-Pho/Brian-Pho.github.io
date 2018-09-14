@@ -7,22 +7,22 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-	    crossorigin="anonymous">
+	 crossorigin="anonymous">
 	<link href="../CSS/custom.css" rel="stylesheet">
 	<link rel="icon" type="image/png" href="../Images/Favicon/favicon-32x32.png" sizes="32x32" />
 	<title>Home</title>
-	<meta name="DESCRIPTION" content="This is the homepage of Brian Pho." />
-	<meta name="KEYWORDS" content="Brian Pho, homepage" />
+	<meta name="DESCRIPTION" content="Brian Pho's Homepage" />
+	<meta name="KEYWORDS" content="Brian, Pho, homepage, website" />
 </head>
 
-<body>
+<body class="homepage">
 	<header>
 		<nav class="navbar fixed-top navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index.html">
-				<img src="../Images/Favicon/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top" alt=""> Brian Pho
+				<img src="../Images/Favicon/favicon-32x32.png" width="30" height="30" class="d-inline-block align-top">
 			</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-			    aria-label="Toggle navigation">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+			 aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNav">
@@ -54,27 +54,32 @@
 			</div>
 		</nav>
 	</header>
-	<div class="container text-center">
-		<h1 class="display-4">Welcome to Brian Pho's Homepage</h1>
-		<p class="lead">
-			Hello, I am a 4<sup>th</sup> year software engineering student at the University of Calgary. This website shows the courses that I have taken,
-			projects that I have been involved in, and information about me.
-		</p>
-		<hr>
+
+	<!-- Homepage left-center text -->
+	<div class="container-fluid position-fixed d-flex flex-column justify-content-center h-100 homepage-text">
+		<div class="row pl-4">
+<h1 class="display-4" style="color: #E0FFEF">Brian Pho</h1>
+		</div>
+		<div class="row pl-4">
+			<div class="lead">BSc Software Engineering</div>
+		</div>
+		<div class="row pl-4">
+			<div class="lead">University of Calgary</div>
+		</div>
 	</div>
-	<footer>
-		<p class="small text-center">
-			This website is built using
-			<a href="https://getbootstrap.com/">Bootstrap 4</a> and is hosted using
-			<a href="https://pages.github.com/">Github Pages.</a> Last Updated Sept 3, 2018.
-		</p>
-	</footer>
+	<!-- Homepage background animation -->
+	<canvas id="homepage-animation" class="container-fluid" style="padding: 0%;"></canvas>
+
+	<!-- Pts JS -->
+	<script type="text/javascript" src="https://unpkg.com/pts@0.6.1/dist/pts.js"></script>
+	<script type="text/javascript" src="../JS/homepage.js"></script>
+	<!-- Bootstrap JS -->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-	    crossorigin="anonymous"></script>
+	 crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-	    crossorigin="anonymous"></script>
+	 crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-	    crossorigin="anonymous"></script>
+	 crossorigin="anonymous"></script>
 </body>
 
 </html>

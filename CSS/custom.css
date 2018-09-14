@@ -6,13 +6,24 @@ html {
 body {
 	/* Padding top to account for navbar */
 	font-size: 18px;
-	padding-top: 70px;
-	overflow: scroll;
+	padding-top: 59px;
+	overflow: auto;
+}
+
+body.homepage {
+	/* Hide scroll bar on homepage */
+	overflow: hidden;
+}
+
+div.homepage-text {
+	/* Color homepage text white */
+	color: white;
+	z-index: 1;
 }
 
 nav.navbar {
-	/* Navbar color */
-	background-color: #e2fdf0;
+	/* Color navbar light green */
+	background-color: #E0FFEF;
 }
 
 .table-hover tbody tr:hover {
@@ -28,6 +39,14 @@ nav.navbar {
 .carousel-inner img {
 	/* Use to center carousel images */
 	margin: auto;
+}
+
+@media (max-width: 991.98px) {
+	body {
+		/* Before 991.98px, the navbar takes up 56px on the top */
+		/* Padding top to account for navbar */
+		padding-top: 56px;
+	}
 }
 
 @media (max-width: 767.98px) {
