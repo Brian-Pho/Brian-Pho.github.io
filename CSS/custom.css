@@ -6,7 +6,6 @@ html {
 body {
 	/* Padding top to account for navbar */
 	font-size: 18px;
-	padding-top: 59px;
 	overflow: auto;
 }
 
@@ -41,11 +40,19 @@ nav.navbar {
 	margin: auto;
 }
 
+@media (min-width: 992px) {
+	body {
+		/* After 992px, the navbar takes up 59px on the top */
+		/* Margin top to account for navbar */
+		margin-top: 59px;
+	}
+}
+
 @media (max-width: 991.98px) {
 	body {
 		/* Before 991.98px, the navbar takes up 56px on the top */
-		/* Padding top to account for navbar */
-		padding-top: 56px;
+		/* Margin top to account for navbar */
+		margin-top: 56px;
 	}
 }
 
