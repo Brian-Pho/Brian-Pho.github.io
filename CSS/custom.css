@@ -1,78 +1,88 @@
+/* To prevent shifting due to the scroll bar */
 html {
-	/* To prevent shifting due to the scroll bar */
 	margin-left: calc(100vw - 100%);
 }
 
+/* Padding top to account for navbar */
 body {
-	/* Padding top to account for navbar */
 	font-size: 18px;
 	overflow: auto;
 }
 
+/* Hide scroll bar on homepage */
 body.homepage {
-	/* Hide scroll bar on homepage */
 	overflow: hidden;
 }
 
+/* Color homepage text white */
 div.homepage-text {
-	/* Color homepage text white */
 	color: white;
 	z-index: 1;
 }
 
+/* Color navbar light green */
 nav.navbar {
-	/* Color navbar light green */
 	background-color: #E0FFEF;
 }
 
+/* Use to make row highlighting transparent */
 .table-hover tbody tr:hover {
-	/* Use to make row highlighting transparent */
 	background-color: rgba(0, 0, 0, 0);
 }
 
+/* Use to color cell highlighting */
 .table-hover tbody tr td:hover {
-	/* Use to color cell highlighting */
 	background-color: #dee2e6 !important;
 }
 
+/* Use to color table year */
+tr.academic_year {
+	background-color: #e9e0ff;
+}
+
+/* Use to color table semester */
+tr.academic_semester {
+	background-color: #ffe0e0;
+}
+
+/* Use to center carousel images */
 .carousel-inner img {
-	/* Use to center carousel images */
 	margin: auto;
 }
 
+/* After 992px, the navbar takes up 59px on the top */
+/* Margin top to account for navbar */
 @media (min-width: 992px) {
 	body {
-		/* After 992px, the navbar takes up 59px on the top */
-		/* Margin top to account for navbar */
 		margin-top: 59px;
 	}
 }
 
+/* Before 991.98px, the navbar takes up 56px on the top */
+/* Margin top to account for navbar */
 @media (max-width: 991.98px) {
 	body {
-		/* Before 991.98px, the navbar takes up 56px on the top */
-		/* Margin top to account for navbar */
 		margin-top: 56px;
 	}
 }
 
+/* Before 767.98px, maximize the carousel images */
 @media (max-width: 767.98px) {
 	.carousel-inner img {
-		/* Before 767.98px, maximize the carousel images */
 		width: 100%;
 	}
 }
 
+/* Before 575.98px, maximize text to 100% on the about page */
 @media (max-width: 575.98px) {
 	div.about {
-		/* Before 575.98px, maximize text to 100% on the about page */
 		width: 100%;
 	}
 }
 
+/* After 576px, maximize text to 75% on the about page */
 @media (min-width: 576px) {
 	div.about {
-		/* After 576px, maximize text to 75% on the about page */
 		width: 75%;
 	}
 }
