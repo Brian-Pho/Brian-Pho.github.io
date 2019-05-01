@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 /* To prevent shifting due to the scroll bar */
 html {
 	margin-left: calc(100vw - 100%);
@@ -7,6 +9,7 @@ html {
 body {
 	font-size: 18px;
 	overflow: auto;
+	font-family: 'Quicksand', sans-serif;
 }
 
 /* Hide scroll bar on homepage */
