@@ -16,9 +16,9 @@ let mobile_navbar_padding = 56;
 
 (function () {
 
-  let pts = null;
-  let rotating_point = null;
-  let rotating_line = null;
+  let pts = new Group();
+  let rotating_point = new Pt();
+  let rotating_line = new Group();
 
   space.add({
     // Initialize the canvas
