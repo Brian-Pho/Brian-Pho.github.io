@@ -16,9 +16,9 @@ let mobile_navbar_padding = 56;
 
 (function () {
 
-  let pts = new Group();
-  let rotating_point = new Pt();
-  let rotating_line = new Group();
+  let pts = null;
+  let rotating_point = null;
+  let rotating_line = null;
 
   space.add({
     // Initialize the canvas
@@ -28,13 +28,10 @@ let mobile_navbar_padding = 56;
       // Resize will call the resize function below, drawing the points and
       // rotating line.
       space.resize(bound)
-      // Create a center point
-      // center_point = new Pt(space.center);
-      // form.fillOnly("#fff").point(center_point, 1.2);
     },
 
     // Animate the canvas via a loop
-    animate: () => {
+    animate: (time, ftime) => {
       // Rotate the line and points on the canvas
       rotating_line = new Group(space.center.$subtract(0.1), rotating_point).op(Line.perpendicularFromPt);
       pts.rotate2D(0.0004, space.center);
