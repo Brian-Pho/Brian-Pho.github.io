@@ -10,13 +10,11 @@ Homepage Link:  <https://brianpho.com>
 
 CR4-DL Link: <https://brianpho.com/CR4-DL>
 
+Cadence Link: <https://brianpho.com/Cadence/>
+
 ### TODO
 
-- [x] Update resume
 - [ ] Revise content on projects page
-- [x] Compress the images in gallery
-- [ ] Add timeline with to about page with "There are days that define your story beyond your life."
-- [x] Fix table cell hover
 
 - <https://www.creativebloq.com/inspiration/css-animation-examples>
 - <https://www.abetterlemonadestand.com/optimizing-images-for-web/>
