@@ -12,6 +12,16 @@ body {
 	font-family: 'Quicksand', sans-serif;
 }
 
+::selection {
+	background: #E0FFEF;
+	/* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+	background: #E0FFEF;
+	/* Gecko Browsers */
+}
+
 /* Hide scroll bar on homepage */
 body.homepage {
 	overflow: hidden;
@@ -51,6 +61,11 @@ tr.academic_semester {
 /* Use to center carousel images */
 .carousel-inner img {
 	margin: auto;
+}
+
+/* Use to hide underline under social media contact icons */
+.contact>a {
+	text-decoration: none;
 }
 
 /* After 992px, the navbar takes up 59px on the top */

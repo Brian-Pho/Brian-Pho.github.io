@@ -14,7 +14,7 @@ let num_points = 300;
 // The amount of padding the navbar takes
 let mobile_navbar_padding = 56;
 
-(function () {
+(() => {
 
   let pts = new Group();
   let rotating_point = new Pt();
@@ -31,7 +31,7 @@ let mobile_navbar_padding = 56;
     },
 
     // Animate the canvas via a loop
-    animate: (time, ftime) => {
+    animate: () => {
       // Rotate the line and points on the canvas
       rotating_line = new Group(space.center.$subtract(0.1), rotating_point).op(Line.perpendicularFromPt);
       pts.rotate2D(0.0004, space.center);
@@ -42,7 +42,7 @@ let mobile_navbar_padding = 56;
         let lp = rotating_line(p);
         // Calculate the ratio between the distance from the point to the
         // rotating_line to the canvas width divided by 2.
-        var ratio = Math.min(1, 1 - lp.$subtract(p).magnitude() / (space.size.x / 2));
+        let ratio = Math.min(1, 1 - lp.$subtract(p).magnitude() / (space.size.x / 2));
         // Color the lines perpendicular to the point and rotating_line
         form.stroke(`rgba(200,200,200,${ratio}`, ratio * 2).line([p, lp]);
         // Color the points on the canvas
