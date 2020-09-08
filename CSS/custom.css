@@ -13,12 +13,12 @@ body {
 }
 
 ::selection {
-	background: #E0FFEF;
+	background: #E3F2FD;
 	/* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-	background: #E0FFEF;
+	background: #E3F2FD;
 	/* Gecko Browsers */
 }
 
@@ -33,9 +33,10 @@ div.homepage-text {
 	z-index: 1;
 }
 
-/* Color navbar light green */
+/* Navbar background color */
 nav.navbar {
-	background-color: #E0FFEF;
+	/* background-color: #E0FFEF; */
+	background-color: #E3F2FD;
 }
 
 /* Use to make row highlighting transparent */
@@ -50,7 +51,7 @@ nav.navbar {
 
 /* Use to color table year */
 tr.academic_year {
-	background-color: #e9e0ff;
+	background-color: #fff5e0;
 }
 
 /* Use to color table semester */
@@ -104,8 +105,3 @@ tr.academic_semester {
 		width: 75%;
 	}
 }
-
-/*
-https://stackoverflow.com/questions/20721248/best-way-to-override-bootstrap-css
-https://stackoverflow.com/questions/25531028/twitter-bootstrap-3-apply-hover-only-on-table-cells
-*/

@@ -4,7 +4,7 @@
 
 // Create the CanvasSpace and CanvasForm
 let homepage_animation_id = "homepage-animation";
-let homepage_animation_bg_color = "#00242A";
+let homepage_animation_bg_color = "#000C2A";
 Pts.quickStart(document.getElementById(homepage_animation_id), homepage_animation_bg_color);
 
 // Let the CanvasSpace resize

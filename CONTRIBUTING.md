@@ -1,1 +1,3 @@
-No contributing due to this being a personal website. Sorry.
+# Contributing
+
+No contributing due to this being a personal website.
