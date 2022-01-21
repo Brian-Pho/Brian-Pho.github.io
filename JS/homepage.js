@@ -1,16 +1,14 @@
 // Source code licensed under Apache License 2.0. 
 // Copyright © 2017 William Ngan. (https://github.com/williamngan/pts)
-// Code from: https://ptsjs.org/demo/edit/?name=line.rotating_lineFromPt
+// Code from: https://ptsjs.org/demo/edit/?name=line.perpendicularFromPt
 
 // Create the CanvasSpace and CanvasForm
-let homepage_animation_id = "homepage-animation";
-let homepage_animation_bg_color = "#000C2A";
-Pts.quickStart(document.getElementById(homepage_animation_id), homepage_animation_bg_color);
+Pts.quickStart(document.getElementById("homepage-animation"), "#1a0000");
 
 // Let the CanvasSpace resize
 space.autoResize = true;
 // The number of points to create
-let num_points = 300;
+let num_points = 400;
 // The amount of padding the navbar takes
 let mobile_navbar_padding = 56;
 

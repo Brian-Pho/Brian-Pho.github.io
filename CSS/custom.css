@@ -13,12 +13,12 @@ body {
 }
 
 ::selection {
-	background: #E3F2FD;
+	background: #fde2e2;
 	/* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
-	background: #E3F2FD;
+	background: #fde2e2;
 	/* Gecko Browsers */
 }
 
@@ -33,19 +33,19 @@ div.homepage-text {
 	z-index: 1;
 }
 
+/* Homepage name color */
+#homepage-name {
+	color: #fde2e2;
+}
+
 /* Navbar background color */
 nav.navbar {
-	/* background-color: #E0FFEF; */
-	background-color: #E3F2FD;
+	/* background-color: #E0FFEF; #E3F2FD;*/
+	background-color: #fde2e2;
 }
 
-/* Use to make row highlighting transparent */
-.table-hover tbody tr:hover {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-/* Use to color cell highlighting */
-.table-hover tbody tr td:hover {
+/* Table cell hover */
+tbody tr td:hover {
 	background-color: #dee2e6 !important;
 }
 
@@ -56,7 +56,7 @@ tr.academic_year {
 
 /* Use to color table semester */
 tr.academic_semester {
-	background-color: #ffe0e0;
+	background-color: #fde2e2;
 }
 
 /* Use to center carousel images */
@@ -64,12 +64,17 @@ tr.academic_semester {
 	margin: auto;
 }
 
+/* Max height for pictures in gallery */
+div img {
+	max-height: 550px;
+}
+
 /* Use to hide underline under social media contact icons */
 .contact>a {
 	text-decoration: none;
 }
 
-/* After 992px, the navbar takes up 59px on the top */
+/* After 992px, the navbar takes up 59px on the top
 /* Margin top to account for navbar */
 @media (min-width: 992px) {
 	body {
@@ -89,19 +94,5 @@ tr.academic_semester {
 @media (max-width: 767.98px) {
 	.carousel-inner img {
 		width: 100%;
-	}
-}
-
-/* Before 575.98px, maximize text to 100% on the about page */
-@media (max-width: 575.98px) {
-	div.about {
-		width: 100%;
-	}
-}
-
-/* After 576px, maximize text to 75% on the about page */
-@media (min-width: 576px) {
-	div.about {
-		width: 75%;
 	}
 }
