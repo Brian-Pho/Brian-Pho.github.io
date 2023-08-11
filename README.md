@@ -17,3 +17,4 @@ Cadence Link: <https://brianpho.com/Cadence/>
 - <https://developers.google.com/speed/pagespeed/insights/?hl=en-US&tm_source=PSI&utm_medium=incoming-link&utm_campaign=PSI>
 - <https://tinypng.com/>
 - <https://img-resize.com/>
+- <https://hslpicker.com/>

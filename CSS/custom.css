@@ -49,24 +49,9 @@ tbody tr td:hover {
 	background-color: #dee2e6 !important;
 }
 
-/* Use to color table year */
-tr.academic_year {
-	background-color: #fff5e0;
-}
-
-/* Use to color table semester */
-tr.academic_semester {
-	background-color: #fde2e2;
-}
-
 /* Use to center carousel images */
 .carousel-inner img {
 	margin: auto;
-}
-
-/* Max height for pictures in gallery */
-div img {
-	max-height: 550px;
 }
 
 /* Use to hide underline under social media contact icons */
